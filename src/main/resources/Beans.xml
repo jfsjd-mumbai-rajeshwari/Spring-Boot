@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+
+<bean id ="Electronic" class= "com.ecom.ecom.ElectronicsItem">
+<constructor-arg name="pName" value="Mobile" />
+<constructor-arg name="pType" value="I-Phone" />
+</bean>
+
+<bean id ="Electronic1" class= "com.ecom.ecom.ElectronicsItem">
+<constructor-arg name="pName" value="TV" />
+<constructor-arg name="pType" value="Samsung" />
+</bean>
+
+<bean id ="Electronic2" class= "com.ecom.ecom.ElectronicsItem">
+<constructor-arg name="pName" value="Washing-Machine" />
+<constructor-arg name="pType" value="Samsung" />
+</bean>
+
+
+<bean id ="Clothing" class= "com.ecom.ecom.Clothes">
+<property name="pName" value="Lehenga"> </property>
+<property name="pType" value="Rajsthani"> </property>
+</bean>
+
+<bean id ="Clothing1" class= "com.ecom.ecom.Clothes">
+<property name="pName" value="Jeans"> </property>
+<property name="pType" value="Allen Soly"> </property>
+</bean>
+
+<bean id ="Clothing2" class= "com.ecom.ecom.Clothes">
+<property name="pName" value="Shervani"> </property>
+<property name="pType" value="Manyavar"> </property>
+</bean>
+
+
+
+</beans>
